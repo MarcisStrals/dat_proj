@@ -1,1 +1,212 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "M_Strals_MultiVib"
+Date "2017-03-09"
+Rev "V1.0"
+Comp "VeA 2.kurss"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC548 Q?
+U 1 1 58C11CCD
+P 6100 3450
+F 0 "Q?" H 6300 3525 50  0000 L CNN
+F 1 "BC548" H 6300 3450 50  0000 L CNN
+F 2 "TO-92" H 6300 3375 50  0000 L CIN
+F 3 "" H 6100 3450 50  0000 L CNN
+	1    6100 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BC548 Q?
+U 1 1 58C11D7E
+P 7150 3250
+F 0 "Q?" H 7350 3325 50  0000 L CNN
+F 1 "BC548" H 7350 3250 50  0000 L CNN
+F 2 "TO-92" H 7350 3175 50  0000 L CIN
+F 3 "" H 7150 3250 50  0000 L CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C11ED7
+P 6100 2650
+F 0 "R?" V 6180 2650 50  0000 C CNN
+F 1 "470R" V 6100 2650 50  0000 C CNN
+F 2 "" V 6030 2650 50  0000 C CNN
+F 3 "" H 6100 2650 50  0000 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C11F7C
+P 6500 2650
+F 0 "R?" V 6580 2650 50  0000 C CNN
+F 1 "47K" V 6500 2650 50  0000 C CNN
+F 2 "" V 6430 2650 50  0000 C CNN
+F 3 "" H 6500 2650 50  0000 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C11FD5
+P 6950 2650
+F 0 "R?" V 7030 2650 50  0000 C CNN
+F 1 "47K" V 6950 2650 50  0000 C CNN
+F 2 "" V 6880 2650 50  0000 C CNN
+F 3 "" H 6950 2650 50  0000 C CNN
+	1    6950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C12030
+P 7250 2650
+F 0 "R?" V 7330 2650 50  0000 C CNN
+F 1 "470R" V 7250 2650 50  0000 C CNN
+F 2 "" V 7180 2650 50  0000 C CNN
+F 3 "" H 7250 2650 50  0000 C CNN
+	1    7250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 58C120C5
+P 6100 2100
+F 0 "D?" H 6100 2200 50  0000 C CNN
+F 1 "LED" H 6100 2000 50  0000 C CNN
+F 2 "" H 6100 2100 50  0000 C CNN
+F 3 "" H 6100 2100 50  0000 C CNN
+	1    6100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 58C12166
+P 7250 2100
+F 0 "D?" H 7250 2200 50  0000 C CNN
+F 1 "LED" H 7250 2000 50  0000 C CNN
+F 2 "" H 7250 2100 50  0000 C CNN
+F 3 "" H 7250 2100 50  0000 C CNN
+	1    7250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 58C121F1
+P 6300 2900
+F 0 "C?" H 6325 3000 50  0000 L CNN
+F 1 "47uF" H 6325 2800 50  0000 L CNN
+F 2 "" H 6338 2750 50  0000 C CNN
+F 3 "" H 6300 2900 50  0000 C CNN
+	1    6300 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Battery BT?
+U 1 1 58C1230E
+P 5000 2900
+F 0 "BT?" H 5100 3000 50  0000 L CNN
+F 1 "9V" H 5100 2900 50  0000 L CNN
+F 2 "" V 5000 2960 50  0000 C CNN
+F 3 "" V 5000 2960 50  0000 C CNN
+	1    5000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 58C124BC
+P 7100 2900
+F 0 "C?" H 7125 3000 50  0000 L CNN
+F 1 "47uF" H 7125 2800 50  0000 L CNN
+F 2 "" H 7138 2750 50  0000 C CNN
+F 3 "" H 7100 2900 50  0000 C CNN
+	1    7100 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 3250 6450 3250
+Wire Wire Line
+	6450 3250 6450 2900
+Wire Wire Line
+	6450 2900 6500 2900
+Wire Wire Line
+	6500 2900 6500 2800
+Connection ~ 6450 2900
+Wire Wire Line
+	6950 2800 6950 3450
+Wire Wire Line
+	6950 3450 6300 3450
+Connection ~ 6950 2900
+Wire Wire Line
+	7250 2800 7250 3050
+Connection ~ 7250 2900
+Wire Wire Line
+	6000 3250 6000 2900
+Wire Wire Line
+	6000 2900 6150 2900
+Wire Wire Line
+	6100 2900 6100 2800
+Connection ~ 6100 2900
+Wire Wire Line
+	7250 2500 7250 2250
+Wire Wire Line
+	6100 2500 6100 2250
+Wire Wire Line
+	5000 1950 7250 1950
+Wire Wire Line
+	5000 1950 5000 2700
+Connection ~ 6100 1950
+Wire Wire Line
+	6500 2500 6500 1950
+Connection ~ 6500 1950
+Wire Wire Line
+	6950 2500 6950 1950
+Connection ~ 6950 1950
+Wire Wire Line
+	5000 3650 7250 3650
+Wire Wire Line
+	5000 3650 5000 3100
+Wire Wire Line
+	7250 3650 7250 3450
+Connection ~ 6000 3650
+$EndSCHEMATC
