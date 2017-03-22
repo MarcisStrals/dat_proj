@@ -1,4 +1,4 @@
-update=2017.03.16. 16:10:27
+update=2017.03.22. 21:18:51
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=Biblioteka
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,6 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Biblioteka/bc817ds
 [general]
 version=1

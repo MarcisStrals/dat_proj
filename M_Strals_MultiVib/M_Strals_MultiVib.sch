@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "M_Strals_MultiVib"
 Date "2017-03-09"
 Rev "V1.0"
@@ -171,7 +171,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 1950 7250 1950
 Wire Wire Line
-	5000 1950 5000 2700
+	5000 1600 5000 2700
 Connection ~ 6100 1950
 Wire Wire Line
 	6500 2500 6500 1950
@@ -216,4 +216,25 @@ Wire Wire Line
 	7000 3900 6950 3900
 Wire Wire Line
 	6000 4000 6000 2900
+$Sheet
+S 8350 2700 900  600 
+U 58CA6896
+F0 "Tranzistors" 60
+F1 "Tranzistors.sch" 60
+F2 "Input" I L 8350 2850 60 
+F3 "+U" I L 8350 3000 60 
+F4 "GND" I L 8350 3150 60 
+$EndSheet
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58CA8155
+P 5000 1600
+F 0 "#FLG?" H 5000 1695 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 1780 50  0000 C CNN
+F 2 "" H 5000 1600 50  0000 C CNN
+F 3 "" H 5000 1600 50  0000 C CNN
+	1    5000 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 1950
 $EndSCHEMATC
